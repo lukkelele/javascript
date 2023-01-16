@@ -1,0 +1,19 @@
+/* CSS file for the buttons that appear across the desktop and windows */
+
+.close-button {
+  border-style: solid;
+}
+
+.minimize-button {
+  border-style: solid;
+}
+
+.maximize-button {
+  border-style: solid;
+}
+
+.close-button,
+.minimize-button,
+.maximize-button {
+  transform: scale(1.2);
+}

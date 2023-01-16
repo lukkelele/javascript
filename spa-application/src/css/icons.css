@@ -1,0 +1,8 @@
+/* CSS file for desktop icons */
+
+.icon {
+  width: 28px;
+  height: 28px;
+  transform: scale(1.8);
+  margin: 14px;
+}

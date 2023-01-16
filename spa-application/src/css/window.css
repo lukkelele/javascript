@@ -1,0 +1,40 @@
+/* CSS file for window buttons and other window properties */
+
+.window,
+.username-input-window {
+  position: absolute;
+  background-color: lightgray;
+  top: 0;
+  left: 0;
+  border: 6px groove black;
+  margin: 0;
+  padding: 6px; 
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+.window.memory-game-window {
+  width: 444px;
+  height: 564px;
+}
+
+.window {
+  width: 420px;
+  height: 400px;
+}
+
+.window.dragged {
+  opacity: 0.75;
+}
+
+.window.dragged:active {
+}
+
+.username-input-window {
+  width: 320px;
+  height: 200px;
+}
+
+/* Fix blur radius when movng windows */
+#focus {
+  box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.82);
+}

@@ -1,0 +1,33 @@
+/* CSS file for the Menu Bar that appears on top of a window */
+
+.menu-bar {
+  border: 1px solid purple;
+  display: inline-block;
+  padding-bottom: 14px;
+  float: right;
+  clear: both;
+  margin-left: 200px; /* fix width properly*/
+}
+
+.menu-bar ul {
+  border: 2px dashed black;
+  list-style-type: none;
+  padding: 0 10px 0;
+}
+
+.menu-bar li {
+  float: left;
+  padding: 0 2px 0;
+}
+
+.menu-bar .buttons {
+
+}
+
+.menu-bar .title {
+  margin-left: 100px;
+  border: 3px dashed orange;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 650;
+}

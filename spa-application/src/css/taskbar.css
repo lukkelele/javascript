@@ -1,0 +1,6 @@
+#taskbar {
+  border: 3px dashed orange;
+  min-height: 40px;
+  min-width: 100%;
+  bottom: 0;
+}
